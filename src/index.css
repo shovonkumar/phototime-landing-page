@@ -1,0 +1,30 @@
+/* ======== General CSS ======== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gotham Rounded Book";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+img {
+  vertical-align: middle;
+}
+ul,
+ol {
+  list-style: none;
+  margin-bottom: 0 !important;
+  padding: 0 !important;
+}
+section {
+  overflow: hidden !important;
+  width: 100%;
+}
