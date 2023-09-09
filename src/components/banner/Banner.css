@@ -1,0 +1,51 @@
+.banner {
+  height: 85vh;
+  background-image: url("./images/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.banner > .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner h1 {
+  font-size: 2.15rem;
+  letter-spacing: 0.25rem;
+}
+
+.banner p {
+  font-family: "Gotham Rounded";
+}
+
+.social__icon {
+  position: absolute;
+  bottom: 1rem;
+}
+.social__icon a i {
+  font-size: 1.45rem;
+  transition: all 0.3s;
+}
+.social__icon a i:hover {
+  color: #16a085;
+}
+
+/* ==========  BreakPoints  ========== */
+@media (max-width: 500px) {
+  .banner {
+    height: calc(100vh - 4rem);
+  }
+  .banner h1 {
+    font-size: 1.5rem;
+    letter-spacing: 0.15rem;
+  }
+  .banner p {
+    font-size: 0.95rem;
+  }
+}

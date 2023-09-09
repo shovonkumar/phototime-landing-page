@@ -1,0 +1,65 @@
+.navbar {
+  background: transparent;
+  position: fixed !important;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  transition: 0.3s;
+}
+.nav-bg {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.navbar-brand img {
+  max-width: 2.5rem;
+}
+
+.nav-link {
+  color: #fff !important;
+  text-transform: uppercase;
+  font-family: "Gotham Rounded";
+  font-size: 0.9rem;
+}
+.nav-link:hover {
+  color: #16a085 !important;
+}
+
+.nav-link-logo {
+  margin: 0 3rem;
+  margin-top: -2rem;
+  transition: 0.3s linear;
+}
+
+.navbar-toggler {
+  padding: 0 !important;
+  border: none !important;
+}
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+.navbar-toggler i {
+  color: #fff;
+  font-size: 1.65rem !important;
+  padding-right: 0.1rem;
+}
+
+/* ==========  BreakPoints  ========== */
+@media (max-width: 767px) {
+  .offcanvas {
+    max-width: 70% !important;
+  }
+  .offcanvas-header {
+    border-bottom: 1px solid #000;
+  }
+  .offcanvas-title {
+    width: 2rem;
+  }
+  .navbar {
+    padding: 1rem 0;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  .nav-link {
+    color: #000 !important;
+  }
+}

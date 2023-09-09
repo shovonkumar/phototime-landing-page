@@ -1,0 +1,21 @@
+.about {
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+  background: url("/public/images/about.png");
+  background-repeat: no-repeat;
+  background-position: top 5rem right 1rem;
+}
+
+.about h3 {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  color: #16a085;
+  letter-spacing: 0.1rem;
+}
+
+.about p {
+  margin-top: 2rem;
+  color: #373737;
+  font-size: 0.92rem;
+  margin-bottom: 1.75rem;
+}

@@ -18,13 +18,36 @@ a {
 img {
   vertical-align: middle;
 }
+
 ul,
 ol {
   list-style: none;
   margin-bottom: 0 !important;
   padding: 0 !important;
 }
+
+h1,
+h2,
+h3 {
+  font-family: "Gotham Rounded";
+}
+
 section {
   overflow: hidden !important;
   width: 100%;
+}
+
+.button {
+  text-transform: uppercase;
+  background: #16a085;
+  color: #fff;
+  border: none;
+  font-size: 0.8rem;
+  padding: 0.55rem 1.25rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.button:hover {
+  background: #046a55;
 }
