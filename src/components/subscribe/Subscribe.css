@@ -1,0 +1,57 @@
+.subscribe {
+  height: 80vh;
+  background: url("/images/subscribe.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.subscribe > .container {
+  height: 100%;
+  display: flex;
+  gap: 0.8rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.subscribe .title {
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+.subscribe input {
+  color: #373737;
+  text-transform: uppercase;
+  font-family: "Gotham Rounded";
+  background: #fff;
+  border: none;
+  padding: 0.85rem 1.25rem;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  border-top-left-radius: 0.2rem;
+  border-bottom-left-radius: 0.2rem;
+}
+
+.subscribe input::placeholder {
+  color: #373737;
+}
+
+.subscribe input:focus {
+  outline: none;
+}
+
+.subscribe button {
+  color: #fff;
+  background: #16a085;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-top-right-radius: 0.2rem;
+  border-bottom-right-radius: 0.2rem;
+  transition: 0.3s;
+}
+
+.subscribe button:hover {
+  background: #046a55;
+}

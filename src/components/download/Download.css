@@ -1,0 +1,59 @@
+.download {
+  padding: 5rem 0;
+  background: #f5f6f7;
+}
+
+.download .title {
+  color: #373737;
+}
+
+.download .para {
+  margin: 0 auto;
+  width: 80%;
+  font-family: "Varela Round";
+  line-height: 1.5;
+}
+
+.btn-wrapper {
+  height: 1rem;
+  background: #1abc9c;
+}
+
+.download a span {
+  background: #1abc9c;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Gotham Rounded";
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  line-height: 1;
+  padding: 1rem 1.25rem;
+  border-top-left-radius: 0.2rem;
+  border-bottom-left-radius: 0.2rem;
+  transition: 0.3s;
+}
+.download a i {
+  display: inline-block;
+  background: #16a085;
+  line-height: 1;
+  padding: 0.6rem 1rem 0.67rem;
+  font-size: 1.5rem;
+  color: #fff;
+  border-top-right-radius: 0.2rem;
+  border-bottom-right-radius: 0.2rem;
+}
+
+.download a:hover span {
+  background: #16a085;
+}
+
+@media (max-width: 991px) {
+  .download .para {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .btn__wrapper {
+    flex-direction: column;
+  }
+}

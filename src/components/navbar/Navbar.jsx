@@ -72,29 +72,29 @@ const Navbar = () => {
               }`}
             >
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#banner">
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#about">
                   Photoapp
                 </a>
               </li>
               <li
                 className={`nav-item ${navBg ? "d-none" : "d-none d-md-block"}`}
               >
-                <a className="nav-link nav-link-logo" href="#">
+                <a className="nav-link nav-link-logo" href="#banner">
                   <img src="/images/logo.png" alt="Logo" />
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#design">
                   Design
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#download">
                   Download
                 </a>
               </li>

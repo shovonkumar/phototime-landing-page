@@ -8,7 +8,7 @@ import DesignItem from "./DesignItem";
 
 const Design = () => {
   return (
-    <section className="design container">
+    <section className="design container" id="design">
       <div className="row">
         <div className="ms-lg-auto col-lg-6 text-center text-lg-start">
           <Swiper

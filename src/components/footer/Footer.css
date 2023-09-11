@@ -1,0 +1,47 @@
+.footer {
+  padding: 1.75rem 0;
+}
+
+.footer .links a {
+  text-transform: uppercase;
+  color: #373737;
+  font-family: "Gotham Rounded";
+  font-size: 0.9rem;
+  padding: 0 0.6rem;
+  line-height: 1;
+  border-right: 1px solid #16a085;
+  transition: all 0.3s;
+}
+
+.footer .links a:hover {
+  color: #16a085;
+}
+
+.footer .links a:first-child {
+  padding-left: 0;
+}
+.footer .links a:last-child {
+  border-right: none;
+}
+
+.footer p,
+.footer span {
+  font-family: "Gotham Rounded";
+  line-height: 1;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.footer span {
+  color: #16a085;
+}
+
+.footer img {
+  max-width: 3rem;
+}
+
+@media (max-width: 400px) {
+  .footer .links a {
+    font-size: 0.85rem;
+  }
+}

@@ -2,7 +2,7 @@ import "./Banner.css";
 
 const Banner = () => {
   return (
-    <section className="banner">
+    <section className="banner" id="banner">
       <div className="container text-white text-center">
         <h1 className="text-uppercase">
           your life <span>,</span> a photo
