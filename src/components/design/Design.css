@@ -1,4 +1,24 @@
 .design {
   padding-top: 5rem;
   padding-bottom: 4rem;
+  background-image: url("./images/iphone.png");
+  background-repeat: no-repeat;
+  background-position: top 5rem left 0;
+}
+
+.swiper-pagination {
+  position: unset;
+  margin-top: 1.75rem;
+}
+
+.swiper__btn button {
+  background: transparent;
+  border: none;
+  font-size: 1.25rem;
+}
+
+@media (max-width: 991px) {
+  .design {
+    background-image: none;
+  }
 }
