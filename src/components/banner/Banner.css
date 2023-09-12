@@ -1,5 +1,5 @@
 .banner {
-  height: 87vh;
+  height: 45rem;
   background-image: url("/images/banner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -39,7 +39,7 @@
 /* ==========  BreakPoints  ========== */
 @media (max-width: 500px) {
   .banner {
-    height: calc(100vh - 4rem);
+    height: 100vh;
   }
   .banner h1 {
     font-size: 1.5rem;

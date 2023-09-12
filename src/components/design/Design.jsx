@@ -9,7 +9,7 @@ import DesignItem from "./DesignItem";
 const Design = () => {
   return (
     <section className="design container" id="design">
-      <div className="row" data-aos="fade-up" data-aos-delay="100">
+      <div className="row" data-aos="fade-up" data-aos-delay="50">
         <div className="ms-lg-auto col-lg-6 text-center text-lg-start">
           <Swiper
             modules={[Navigation, Pagination]}

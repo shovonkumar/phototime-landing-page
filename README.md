@@ -1,8 +1,5 @@
-# React + Vite
+## Phototime Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live link : <a href="https://phototime-shovon.netlify.app/">Click here</a>
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p>It's a single page react website! Made with React + Vite. Full responsive for all devices.</p>
