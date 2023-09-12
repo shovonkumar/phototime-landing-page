@@ -1,9 +1,9 @@
 .banner {
-  height: 45rem;
+  height: 39rem;
   background-image: url("/images/banner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   position: relative;
 }
 
