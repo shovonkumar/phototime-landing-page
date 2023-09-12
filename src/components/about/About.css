@@ -1,7 +1,7 @@
 .about {
   padding-top: 5rem;
   padding-bottom: 4rem;
-  background: url("/public/images/about.png") #f5f6f7;
+  background: url("/images/about.png") #f5f6f7;
   background-repeat: no-repeat;
   background-position: top 5rem right 6rem;
 }
@@ -9,7 +9,7 @@
 /* ==========  BreakPoints  ========== */
 @media (max-width: 991px) {
   .about {
-    background-image: url("/public/images/about.png");
+    background-image: url("/images/about.png");
     background-repeat: no-repeat;
     background-position: top 6rem right 1rem;
   }

@@ -3,7 +3,7 @@ import "./About.css";
 const About = () => {
   return (
     <section className="about" id="about">
-      <div className="container">
+      <div className="container" data-aos="fade-up" data-aos-delay="100">
         <h3 className="title">
           Rappresent your life with a <br /> simple photo
         </h3>

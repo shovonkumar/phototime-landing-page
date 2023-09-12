@@ -17,7 +17,7 @@ const Community = () => {
   };
   return (
     <section className="community">
-      <div className="container">
+      <div className="container" data-aos="fade-up" data-aos-delay="100">
         <div className="row gy-5">
           <div className="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-center">
             <img src="/images/logo-blue.png" alt="Logo" />

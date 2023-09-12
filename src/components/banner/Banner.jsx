@@ -3,7 +3,11 @@ import "./Banner.css";
 const Banner = () => {
   return (
     <section className="banner" id="banner">
-      <div className="container text-white text-center">
+      <div
+        className="container text-white text-center"
+        data-aos="zoom-in"
+        data-aos-delay="200"
+      >
         <h1 className="text-uppercase">
           your life <span>,</span> a photo
         </h1>

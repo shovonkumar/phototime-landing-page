@@ -9,7 +9,7 @@ import DesignItem from "./DesignItem";
 const Design = () => {
   return (
     <section className="design container" id="design">
-      <div className="row">
+      <div className="row" data-aos="fade-up" data-aos-delay="100">
         <div className="ms-lg-auto col-lg-6 text-center text-lg-start">
           <Swiper
             modules={[Navigation, Pagination]}
@@ -18,7 +18,6 @@ const Design = () => {
               prevEl: ".button__prev",
             }}
             pagination={{ type: "fraction" }}
-            loop={true}
           >
             <SwiperSlide>
               <DesignItem title="design 1" />

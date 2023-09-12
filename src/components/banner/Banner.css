@@ -1,6 +1,6 @@
 .banner {
-  height: 85vh;
-  background-image: url("./images/banner.jpg");
+  height: 87vh;
+  background-image: url("/images/banner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
